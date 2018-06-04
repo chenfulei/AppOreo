@@ -94,7 +94,6 @@ public class NotificationUtils extends ContextWrapper {
 //                //如果有必要，增加/更新/移除通知的归类
                 //这是master
                 updateNotificationSummary();
-
             }
         });
 
@@ -140,7 +139,6 @@ public class NotificationUtils extends ContextWrapper {
 
             getNotification_25(title, content);
         }
-        //测试
     }
 
     /**
