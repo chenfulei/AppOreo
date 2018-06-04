@@ -92,7 +92,6 @@ public class NotificationUtils extends ContextWrapper {
 
                 getManager().notify(getNewNotificationId(), notification);
 //                //如果有必要，增加/更新/移除通知的归类
-                //这是master
                 updateNotificationSummary();
             }
         });
