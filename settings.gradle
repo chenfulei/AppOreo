@@ -1,0 +1,4 @@
+include ':app'
+// bksdk
+include ':bksdk'
+project(':bksdk').projectDir = new File('../BKSDK/bksdk')
